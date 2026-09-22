@@ -1,0 +1,18 @@
+{
+  "name": "api-videojuegos-campuslands",
+  "version": "1.0.0",
+  "description": "API REST ágil de videojuegos para refuerzo de Express, DTO, validación, MongoDB, cookies y SemVer.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test",
+    "check": "node --check src/app.js && node --check src/server.js && node --check src/routes/juego.routes.js && node --check src/controllers/juego.controller.js && node --check src/services/juego.service.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "mongoose": "^8.18.0"
+  }
+}
