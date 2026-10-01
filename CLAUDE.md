@@ -18,7 +18,7 @@ Este repositorio forma parte de los proyectos de formación de Campuslands y uti
 1. Antes de realizar cambios, ejecutar `git status --short`.
 2. Al finalizar cambios de código:
    - `graphify update .` (o `graphify .`)
-   - `graphify export obsidian --dir "$HOME/Documents/Obsidian Vault/Memoria/Graphify/campuslands-api-rest-videojuegos"`
+   - `graphify export obsidian --dir "$HOME/Documents/OBSIDIAN/PROGRAMACION/Graphify/campuslands-api-rest-videojuegos"`
    - `memoria refresh`
    - Registrar cualquier aprendizaje o decisión con `memoria registrar campuslands-api-rest-videojuegos ...`
 3. Mantener ramas `dev` y `main` sincronizadas.
