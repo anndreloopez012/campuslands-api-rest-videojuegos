@@ -38,7 +38,7 @@ Al realizar cambios en este repositorio, los agentes deben cumplir estrictamente
    - Actualizar el grafo: `graphify update .` o `graphify .`.
    - Exportar a Obsidian:
      ```bash
-     graphify export obsidian --dir "$HOME/Documents/Obsidian Vault/Memoria/Graphify/campuslands-api-rest-videojuegos"
+     graphify export obsidian --dir "$HOME/Documents/OBSIDIAN/PROGRAMACION/Graphify/campuslands-api-rest-videojuegos"
      ```
    - Sincronizar memoria: `memoria refresh`.
    - Registrar validaciones o decisiones:
